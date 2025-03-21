@@ -11,7 +11,7 @@ The Quick Model View Manager project has only one User Group:
 
 * QMV Managers
 
-Adding uses to the QMV Managers user group will give them access to the QMV Manager project, but it will not permit them to also create new projects.
+Adding users to the QMV Managers user group will give them access to the QMV Manager project, but it will not permit them to also create new projects.
 
 In order to use the QMV Manager, users must also be added to your application's Application Developer user group. This access is necessary to allow the user to create new projects and user groups. Refer to the "Getting Access as an Application Owner or Application Developer" step in the [Deployment Guide](../deploy/d1-gather.md) for more information.
 
@@ -57,7 +57,7 @@ The Project Maker pageComponent relies on a script or scripts to create and upda
 
 Those scripts are specified in the handler in two places.
 
-1. **scriptTypes**: the _userType of the script in Twinit must be specified in the handlers scriptTypes array so that the necessary script item can be loaded when the page loads, making the scripts the page needs available o be run
+1. **scriptTypes**: the _userType of the script in Twinit must be specified in the handlers scriptTypes array so that the necessary script item can be loaded when the page loads, making the scripts the page needs available to be run
 2. **config**: three scripts must be configured in the handlers config to support creating and updating projects:
    * **currentVersionScript**: returns the current version assigned to newly created Quick Model View projects. This is also used to determine if existing projects are out of date
    * **projectCreateScript**: the script used to create new Quick Model View projects
@@ -120,13 +120,13 @@ The script takes two inputs:
 * project: REQUIRED: the project to update
 * version: REQUIRED: the current version of the project
 
-Currently, as of version 1.3.0, there are no migrations to perform, so the script contains only the basic framework for applying updates once any are available.
-
-When one or more updates are available, the script will do the following:
+The script then does the following:
 
 1. Find the migration from the list of migrations where the "from" version matches the current version of the project
 2. Execute the migrations migrateFunction and update the project to the "to" version on the migration
 3. Continue 1 & 2 until no further migrations are found
+
+The contents of each migration will vary release to release. See the project maker script for the release to understand more information on any one migration.
 
 While the script is running it uses the callback function provided by the web client to provide success or error updates to the user interface like so:
 

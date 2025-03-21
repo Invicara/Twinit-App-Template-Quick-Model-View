@@ -17,9 +17,11 @@ Start by reading the [general introduction](./implementation/general-intro.md) t
 
 Later, when you are ready, explore the in-depth implementation documentation to gain a very detailed understanding of the template and how it works.
 
-## Deploying the Quick Model View Twinit Application Template
+## New Deployments of the Quick Model View Twinit Application Template
 
-Once you have read the [general introduction](./implementation/general-intro.md) to the template you can proceed with deploying it.
+If you have not yet deployed the Quick Model View template, proceed with the steps in this section. If you have a previously deployed instance of the Quick Model View template, skip to the **Updating Existing Quick Model View Templates** section below.
+
+Once you have read the [general introduction](./implementation/general-intro.md) to the template you can proceed with deploying it for the first time.
 
 To deploy the Quick Model View Twinit Application Template to Twinit and to deploy the web client, follow these steps in order:
 
@@ -29,11 +31,9 @@ To deploy the Quick Model View Twinit Application Template to Twinit and to depl
 4. [Test the Template](./deploy/d4-test.md)
 5. [Deploy the Web Client for Users](./deploy/d5-deploy-to-cloud.md)
 
-## Consuming Updates to the Quick Model View Twinit Application Template
+## Updating an Existing Quick Model View Template to 2.0.0
 
-The Quick Model View Twinit Application Template will be updated with new features and capabilities in the future. The template has a built in mechanism for consuming those updates and rolling them out to all of your projects.
-
-When the first update is released, refer back to this section at that time for instructions on how you can consume the template changes.
+If you have already deployed an earlier version of the Quick Model View and wish to update your deployment to the the current version, please refer to the [Developer Update Guide](./update/README.md)
 
 ## In-Depth Knowledge of the Application Template
 
@@ -53,13 +53,21 @@ Since the template provides all the Twinit scripts and user configs, and web cli
 * [Change the Theme Colors in the Web Client](./customize/change-theme.md)
 * [Customize Your Email Invitations](./customize/customize-email.md)
 
+## Future Updates
+
+Future updates to the Quick Model View could include:
+
+* Moving the Twinit logic in ModelContext into Twinit Object Model API endpoints that the web client will use instead of directly using the Twinit APIs
+* Allow other custom components to be loaded in the bottom panel of the SimpleViewerView pageComponent
+* Additional element table capabilities like hiding columns or removing selected properties from the table
+
 ## Finding Support
 
 As you work through the deployment of the template or the template's web client, you may encounter issues or have questions about what you are doing.
 
 Be sure to visit the [digitaltwin-factory community](https://community.digitaltwin-factory.com/) to find help.
 
-You'll find easy reference links to [Twinit Academy](https://community.digitaltwin-factory.com/cohorts-npcs64ni) if you ned to quickly refresh your memory on topics covered in the training.
+You'll find easy reference links to [Twinit Academy](https://community.digitaltwin-factory.com/cohorts-npcs64ni) if you need to quickly refresh your memory on topics covered in the training.
 
 The [Knowledgebase](https://community.digitaltwin-factory.com/knowledgebase-5wzpkylt) is a growing library of common issues and their solutions to help keep you working.
 

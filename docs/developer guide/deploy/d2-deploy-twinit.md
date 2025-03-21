@@ -52,12 +52,14 @@ A new project should now be visible in the extension panel.
 
 ![bulk upload result](../../img/vscode-bulk-upload.jpg)
 
-## Create an Admin User Group
+## Create an QMV Managers User Group
 
 1. Right click on your "QMV Manager" project in the extension panel and select "Create a Project Admin Group"
 2. When prompted replace the name "Admin" with "QMV Managers" 
 
 You'll see a notice in the bottom right corner of the VS Cod window once the new QMV Managers Admin user group has been created.
+
+![admin group notice](../../img/vscode-admin-created.jpg)
 
 ## Assign the Manager User Config
 
@@ -65,6 +67,8 @@ You'll see a notice in the bottom right corner of the VS Cod window once the new
 2. Select the "QMV Managers" user group when prompted
 
 You'll see a notice in the bottom right corner of the VS Code window once the user config has been related to the user group.
+
+![user config rel](../../img/vscode-config-rel.jpg)
 
 ## Next Steps
 
