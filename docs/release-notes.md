@@ -1,7 +1,7 @@
 # Release Notes
 
 ## Version 2.1.0
-_May 2025_
+_August 2025_
 
 ### New Features
 
@@ -25,6 +25,14 @@ _May 2025_
 ### Update Support
 
 * Supports updating only projects with a current version of 2.0.0. Older projects must first be updated to 2.0.0 before migrating to 2.1.0.
+
+### Known Issus
+
+The following issues exist in the 2.1.0 release of the template and will be addressed in a future release:
+
+* The default user group is not always loaded automatically in the Project select dialog. To load he user groups, select another project in the dropdown and then switch back.
+* File relations to model elements are not migrated from previous versions of the model to new versions of the model when the new version is imported.
+* Relating files to model elements in older versions of a model does not work.
  
 ## Version 2.0.0
 _February 2025_
