@@ -1,5 +1,18 @@
 # Release Notes
 
+## Version 2.1.1
+_August 2025_
+
+### Patch Changes
+
+* The import script was enhanced to migrate existing file relations to model elements from the previous version of the imported model to the newly imported version. This carries forward model element to file item relations to each new version.
+* The model upload control is hidden when any version except the latest version of the model is being viewed.
+* Documentation was enhanced around model and model element file relations
+
+### Update Support
+
+* Supports updating projects with a current version of 2.0.0 or 2.1.0. Older projects must first be updated to 2.0.0 before migrating to 2.1.1.
+
 ## Version 2.1.0
 _August 2025_
 
@@ -25,14 +38,6 @@ _August 2025_
 ### Update Support
 
 * Supports updating only projects with a current version of 2.0.0. Older projects must first be updated to 2.0.0 before migrating to 2.1.0.
-
-### Known Issus
-
-The following issues exist in the 2.1.0 release of the template and will be addressed in a future release:
-
-* The default user group is not always loaded automatically in the Project select dialog. To load he user groups, select another project in the dropdown and then switch back.
-* File relations to model elements are not migrated from previous versions of the model to new versions of the model when the new version is imported.
-* Relating files to model elements in older versions of a model does not work.
  
 ## Version 2.0.0
 _February 2025_
