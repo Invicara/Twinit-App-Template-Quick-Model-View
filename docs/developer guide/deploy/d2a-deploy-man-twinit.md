@@ -6,7 +6,7 @@
 
 Next you will deploy the template and its configuration to Twinit. This is the first of two deploys to completely deploy the template. In a later step you will learn how to build and deploy the template's web client.
 
-> Note: Images are provided as an example of what you will see during the deployment process. Depending on the release of Quick Model View which you are deploying, the actual scripts and configs you see will diff
+> Note: Images are provided as an example of what you will see during the deployment process. Depending on the release of Quick Model View which you are deploying, the actual scripts and configs you see will differ
 
 To deploy the template to Twinit you will:
 
@@ -18,6 +18,10 @@ To deploy the template to Twinit you will:
 6. Assign the Quick Model View Manager user config to the new Admin user group
 
 Remember, as mentioned in the [General Introduction](../implementation/general-intro.md), what you are setting up now is the ability to create new Quick Model View projects, not actually creating new Quick Model View projects themselves.
+
+## Clone or Fork the Quick Model View 
+
+1. Using your preferred github method, clone or fork this repository locally
 
 ## Sign in to Your Application using the Twinit VS Code Extension
 

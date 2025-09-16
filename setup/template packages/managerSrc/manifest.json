@@ -1,0 +1,57 @@
+{
+   "Template Name": "Quick Model View Manager",
+   "Template Version": "2.1.1",
+   "configs": [
+      {
+         "_name": "QuickViewManagerConfig",
+         "_shortName": "QuickViewManagerConfig",
+         "_description": "QuickViewManagerConfig",
+         "_userType": "quick-view"
+      },
+      {
+         "_name": "QuickViewAdminConfigTemplate",
+         "_shortName": "AdminConfigTemplate",
+         "_description": "QuickViewAdminConfigTemplate",
+         "_userType": "quick-temp"
+      },
+      {
+         "_name": "QuickViewViewerConfigTemplate",
+         "_shortName": "ViewerConfigTemplate",
+         "_description": "QuickViewViewerConfigTemplate",
+         "_userType": "quick-temp"
+      }
+   ],
+   "scripts": [
+      {
+         "_name": "Project Maker",
+         "_shortName": "Project Maker",
+         "_description": "Project Maker",
+         "_userType": "project-maker"
+      },
+      {
+         "_name": "importHelperTemplate",
+         "_shortName": "importHelperTemplate",
+         "_description": "importHelperTemplate",
+         "_userType": "quick-temp"
+      },
+      {
+         "_name": "mapboxTemplate",
+         "_shortName": "mapboxTemplate",
+         "_description": "mapboxTemplate",
+         "_userType": "quick-temp"
+      }
+   ],
+   "userGroups": [
+      {
+         "_name": "QMV Managers",
+         "_description": "admin",
+         "_shortName": "admin",
+         "permissions": {
+            "accessAll": true
+         }
+      }
+   ],
+   "userGroupToUserConfig": [
+      { "group": "QMV Managers", "config": "QuickViewManagerConfig" }
+   ]
+}

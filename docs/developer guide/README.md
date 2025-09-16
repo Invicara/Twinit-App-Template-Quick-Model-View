@@ -26,12 +26,14 @@ Once you have read the [general introduction](./implementation/general-intro.md)
 To deploy the Quick Model View Twinit Application Template to Twinit and to deploy the web client, follow these steps in order:
 
 1. [Gather Necessary Info and Check Twinit Access](./deploy/d1-gather.md)
-2. [Deploy the Application Template to Twinit](./deploy/d2-deploy-twinit.md)
+2. Deploy the Application Template to Twinit
+    * [Use a Template Package to Deploy the Application Template to Twinit](./deploy/d2b-deploy-pkg-twinit.md)
+    * [Manually Deploy the Application Template to Twinit](./deploy/d2a-deploy-man-twinit.md)
 3. [Build and Run the Web Client](./deploy/d3-webclient.md)
 4. [Test the Template](./deploy/d4-test.md)
 5. [Deploy the Web Client for Users](./deploy/d5-deploy-to-cloud.md)
 
-## Updating an Existing Quick Model View Template to 2.0.0
+## Updating an Existing Quick Model View Template to 2.1.1
 
 If you have already deployed an earlier version of the Quick Model View and wish to update your deployment to the the current version, please refer to the [Developer Update Guide](./update/README.md)
 
